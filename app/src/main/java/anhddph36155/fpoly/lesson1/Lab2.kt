@@ -5,6 +5,7 @@ fun main(){
         println("1: Phương trình ax+b")
         println("2: Month")
         println("3: Năm nhuận")
+        println("4: Thoát")
         println("Nhập lựa chọn: ")
 
         var choice = 0
@@ -17,7 +18,7 @@ fun main(){
             3 -> lesson3()
             else -> println("Vui lòng nhập lại")
         }
-    } while (choice != 0)
+    } while (choice != 4)
 
 }
 
